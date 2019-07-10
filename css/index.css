@@ -130,6 +130,8 @@ body {
   background-color: #C8D5B9;
 }
 .page {
+  position: absolute;
+  margin: auto;
   height: 100%;
   width: 95%;
   background-color: #FBF6EF;
