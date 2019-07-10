@@ -131,7 +131,10 @@ body {
 }
 .page {
   position: absolute;
-  margin: auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
   width: 95%;
   background-color: #FBF6EF;
@@ -140,6 +143,7 @@ body {
 nav {
   background: #DB5461;
   margin: 10px 0 0;
+  padding: 5px;
 }
 nav ul {
   display: flex;
