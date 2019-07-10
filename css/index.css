@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -125,4 +125,25 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+body {
+  background-color: #C8D5B9;
+}
+.page {
+  height: 100%;
+  width: 95%;
+  background-color: #FBF6EF;
+  border-radius: 10px;
+}
+nav {
+  background: #DB5461;
+  margin: 10px 0 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.6em;
 }
