@@ -151,6 +151,15 @@ nav ul li a img #about {
   border-radius: 2px;
   box-shadow: 0px 0px 10px #576066;
 }
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: #576066;
+}
+footer a {
+  text-decoration: none;
+  color: #576066;
+}
 .home-page {
   height: 100%;
   background-image: url("/img/woven-img.png");
