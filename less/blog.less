@@ -1,0 +1,29 @@
+#blog-page{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'article aside'
+    'footer footer';
+    grid-template-rows: 80px 1fr 70px 25px;
+    grid-template-columns: 1fr 20%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    background: @cambridge-blue;
+  }
+  header, footer, article, aside, div{
+      padding: 1.2em;
+      background: @seashell;
+  }
+
+  #blog-header {
+      grid-area: header;
+  }
+
+  footer {
+      grid-area: footer;
+  }
+#main-article {
+    grid-area: article;
+}
